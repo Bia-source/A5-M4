@@ -56,3 +56,34 @@ app.listen(3030, () => {
 // https://www.postman.com/jp/downloads/
 
 // http://www.postman.com/jp/downloads/
+
+// objeto {}
+// chave: valor
+const pessoa = {
+  // propriedade
+   email: "bia@gmail.com",
+   cpf: "123.123.123-99",
+   idade: 24,
+   nome: "Bia do grau",
+   enderecos: [
+    {rua: "rua x", numero: 23},
+    {rua: "rua y", numero: 21},
+    {rua: "rua a", numero: 20},
+   ],
+   status: {}
+}
+
+
+// classe sendo um MODELO de OBJETO
+// * primeira letra SEMPRE SERÁ MAIUSCULA
+
+let nome = "Beatriz";
+class Pessoa{
+   constructor(nome, idade, cpf){
+    // atributos
+     this.nome = nome;
+     this.idade = idade;
+     this.cpf = cpf;
+   }
+}
+

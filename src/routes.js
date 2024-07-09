@@ -1,4 +1,3 @@
-
 // estamos utilizando a funcao get dentro da variavel app
 // estamos definindo uma rota
 // uma funcao de busca app.get()
@@ -48,45 +47,6 @@ export const getRotaPrincipal1 = (app) => {
 // Em grupo voces deverão criar uma rota que apresente como retorno 
 // todos os funcionários que ganham acima de 4k
 
-const employees = [
-    {
-      id: 1,
-      name: "Alice",
-      age: 30,
-      salary: 5000,
-      active: true,
-      team: "Engineer",
-    },
-    {
-      id: 2,
-      name: "Bob",
-      age: 25,
-      salary: 3500,
-      active: false,
-      team: "Marketing",
-    },
-    {
-      id: 3,
-      name: "Carlos",
-      age: 28,
-      salary: 4800,
-      active: true,
-      team: "Sales",
-    },
-    {
-      id: 4,
-      name: "Diana",
-      age: 35,
-      salary: 5200,
-      active: true,
-      team: "Human Resources",
-    },
-    {
-      id: 5,
-      name: "Edward",
-      age: 40,
-      salary: 6000,
-      active: false,
-      team: "Finance",
-    },
-  ];
+
+
+
